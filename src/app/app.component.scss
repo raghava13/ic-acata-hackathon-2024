@@ -1,0 +1,42 @@
+@use "../theme/color-variables.scss" as c;
+
+.mat-toolbar {
+  background: c.$ic-gray-900;
+}
+
+.app-name {
+  color: c.$ic-white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+// .multicolor-text {
+//   background: linear-gradient(
+//     to left,
+//     violet,
+//     indigo,
+//     blue,
+//     green,
+//     yellow,
+//     orange,
+//     red
+//   );
+//   -webkit-background-clip: text;
+//   color: transparent;
+// }
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.ic-logo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  img {
+    height: 4rem;
+    width: 4rem;
+  }
+}

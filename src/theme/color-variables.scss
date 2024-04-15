@@ -1,0 +1,172 @@
+// BASE COLORS
+$ic-black: #000;
+$ic-white: #fff;
+$ic-error: #db3030; // RED 300, RED (SECONDARY COLOR)
+$ic-success: #28ac58; // GREEN 500, GREEN (SECONDARY COLOR)
+$ic-warning: #ed871f; // ORANGE 300, ORANGE (SECONDARY COLOR)
+$ic-info: #009af0; // BLUE 400
+
+// PRIMARY COLORS
+$ic-blue: #007cbf; // BLUE 600
+$ic-teal: #009d8c; // TEAL 600
+$ic-gray: #343a40; // GRAY 800
+
+// SECONDARY COLORS
+$ic-pink: #e75094; // PINK 200
+$ic-purple: #8b55b9; // PURPLE 300
+$ic-lime: #7dce20; // LIME 300
+$ic-yellow: #ffd630; // YELLOW 200
+// DO NOT ADD $ic-green, USE $ic-success
+// DO NOT ADD $ic-orange, USE $ic-warning
+// DO NOT ADD $ic-red, USE $ic-error
+
+// GRAY SCALE
+$ic-gray-25: #f9f9fa;
+$ic-gray-50: #ebedee;
+$ic-gray-75: #cfd3d7;
+$ic-gray-100: #b2bac1;
+$ic-gray-200: #96a0aa;
+$ic-gray-300: #7a8793;
+$ic-gray-400: #6d7a86;
+$ic-gray-500: #626d78;
+$ic-gray-600: #57606a;
+$ic-gray-700: #4b545c;
+
+// DO NOT ADD $ic-gray-800, USE $ic-gray
+$ic-gray-900: #292d32;
+
+// BLUE (PRIMARY)
+$ic-blue-25: #ebf8ff;
+$ic-blue-50: #d6f0ff;
+$ic-blue-75: #a3deff;
+$ic-blue-100: #70ccff;
+$ic-blue-200: #3dbaff;
+$ic-blue-300: #0aa8ff;
+
+// DO NOT ADD $ic-blue-400, USE $ic-info
+$ic-blue-500: #008ad6;
+
+// DO NOT ADD $ic-blue-600, USE $ic-blue
+$ic-blue-700: #0069a3;
+$ic-blue-800: #004870;
+$ic-blue-900: #003857;
+
+// TEAL (SECONDARY)
+$ic-teal-25: #e7fdfb;
+$ic-teal-50: #cefdf8;
+$ic-teal-75: #97fcf1;
+$ic-teal-100: #5ffcec;
+$ic-teal-200: #1cf7df;
+$ic-teal-300: #00e9d1;
+$ic-teal-400: #00d0ba;
+$ic-teal-500: #00b6a3;
+
+// DO NOT ADD $ic-teal-600, use $ic-teal
+$ic-teal-700: #00837a;
+$ic-teal-800: #005048;
+$ic-teal-900: #003731;
+
+// RED (ERRORS)
+$ic-red-25: #fff5f5;
+$ic-red-50: #f9dede;
+$ic-red-75: #f2b2b2;
+$ic-red-100: #ea8787;
+$ic-red-200: #e75054;
+
+// DO NOT ADD $ic-red-300, use $ic-error
+$ic-red-400: #ce2424;
+$ic-red-500: #b82020;
+$ic-red-600: #a21c1c;
+$ic-red-700: #8d1818;
+$ic-red-800: #611111;
+$ic-red-900: #4b0d0d;
+
+// PINK
+$ic-pink-25: #fdedf4;
+$ic-pink-50: #f9d7e6;
+$ic-pink-75: #f3aacb;
+$ic-pink-100: #ed7db0;
+
+// DOT NOT ADD $ic-pink-200, USE $ic-pink
+$ic-pink-300: #e12379;
+$ic-pink-400: #ce1c6d;
+$ic-pink-500: #b81961;
+$ic-pink-600: #a21655;
+$ic-pink-700: #8b1349;
+$ic-pink-800: #5e0d32;
+$ic-pink-900: #480a26;
+
+// PURPLE
+$ic-purple-25: #faf8fc;
+$ic-purple-50: #eee6f4;
+$ic-purple-75: #d5c1e6;
+$ic-purple-100: #bc9dd7;
+$ic-purple-200: #a479c8;
+
+// DO NOT ADD $ic-purple-300, USE $ic-purple
+$ic-purple-400: #7e47ad;
+$ic-purple-500: #71409b;
+$ic-purple-600: #643989;
+$ic-purple-700: #573177;
+$ic-purple-800: #3c2253;
+$ic-purple-900: #2f1b41;
+
+// GREEN
+$ic-green-25: #f1fcf5;
+$ic-green-50: #dcf7e6;
+$ic-green-75: #b3edc8;
+$ic-green-100: #89e4aa;
+$ic-green-200: #60da8c;
+$ic-green-300: #37d06f;
+$ic-green-400: #2dc163;
+
+// DO NOT ADD $ic-green-500, USE $ic-success
+$ic-green-600: #23974d;
+$ic-green-700: #1e8343;
+$ic-green-800: #15592e;
+$ic-green-900: #104523;
+
+// LIME
+$ic-lime-25: #ebf9da;
+$ic-lime-50: #dff6c4;
+$ic-lime-75: #c6ef98;
+$ic-lime-100: #aee86c;
+$ic-lime-200: #96e140;
+
+// DO NOT ADD $ic-lime-300, USE $ic-lime
+$ic-lime-400: #6fb81c;
+$ic-lime-500: #62a219;
+$ic-lime-600: #558c16;
+$ic-lime-700: #477612;
+$ic-lime-800: #2d4a0b;
+$ic-lime-900: #1f3408;
+
+// ORANGE
+$ic-orange-25: #fef9f3;
+$ic-orange-50: #fcecdc;
+$ic-orange-75: #f8d3ad;
+$ic-orange-100: #f5b97d;
+$ic-orange-200: #f1a04e;
+
+// DO NOT ADD $ic-orange-300, USE $ic-warning
+$ic-orange-400: #e17a12;
+$ic-orange-500: #c96d10;
+$ic-orange-600: #b1600e;
+$ic-orange-700: #9a530c;
+$ic-orange-800: #6b3a08;
+$ic-orange-900: #532d07;
+
+// YELLOW
+$ic-yellow-25: #fff9e3;
+$ic-yellow-50: #fff4ce;
+$ic-yellow-75: #ffea96;
+$ic-yellow-100: #ffe063;
+
+// DO NOT ADD $ic-yellow-200, USE $ic-yellow
+$ic-yellow-300: #fcca00;
+$ic-yellow-400: #e3b500;
+$ic-yellow-500: #c9a100;
+$ic-yellow-600: #b08d00;
+$ic-yellow-700: #967800;
+$ic-yellow-800: #634f00;
+$ic-yellow-900: #4a3b00;
